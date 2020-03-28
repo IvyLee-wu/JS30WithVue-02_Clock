@@ -39,7 +39,7 @@ export default {
     updateDate: function () {
       this.secondsDegrees += (1 / 60) * 360
       this.minsDegrees += ((1 / 60) / 60) * 360
-      this.hourDegrees += (((1 / 60) / 60) / 12)
+      this.hourDegrees += (((1 / 60) / 60) / 12) * 360
       // console.log(this.secondsDegrees)
     }
   },
